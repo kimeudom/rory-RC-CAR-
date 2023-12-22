@@ -20,9 +20,9 @@ SoftwareSerial BTSerial(10, 11); // Rx, Tx
 void setup()
 {
   pinMode(9, OUTPUT); // Setting the enable pin high to configure and debug the module
-  digitalWrite(2, HIGH);
+  digitalWrite(9, HIGH);
 
-  // 36.8k baud rate is the default baud rate for the HC05 module
+  // 38.4k baud rate is the default baud rate for the HC05 module
   Serial.begin(38400);   // Setting the baud rate for the serial monitor
   BTSerial.begin(38400); // Setting the baud rate for the HC05 module
 
