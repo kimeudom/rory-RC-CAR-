@@ -15,7 +15,7 @@
 #include <SoftwareSerial.h>
 
 // Set the UART Rx and Tx pins
-SoftwareSerial BTSerial(10, 11); // Rx, Tx
+SoftwareSerial BTSerial(10, 11); // Tx, Rx
 
 void setup()
 {
