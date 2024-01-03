@@ -1,6 +1,11 @@
 #include <SoftwareSerial.h>
 
 SoftwareSerial BTSerial(10, 11); // TX | RX
+//HCO5 address: 98D3:71:F6EFD1
+// +CMODE:1 (One to One)
+// +ROLE:0 (Slave)
+// +NAME:HC05
+// +ADDR:98D3:71:F6EFD1
 
 void setup()
 {
