@@ -1,0 +1,6 @@
+Baud rate of HC05 has been changed to 115200 to match that of the Arduino
+We now use the RX and TX pins of the Arduino rather than pin 10 and 11 for Rx and TX.
+HC05 is now in ROLE 0 (slave role)
+HC05 Communication Mode (CMODE) is now 1. This is a one to one connection
+HC05 address is 98D3:71:F6EFD1
+HC05 name on devices in HC05 (Change bluetooth devices discovery to advanced on your PC if you can't see it )
