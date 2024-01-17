@@ -5,9 +5,9 @@ DIRECTION = "stop"
 
 # Threshold vales for the sensitivity of classification
 # These are manually tuned
-FROWARD_THRESHOLD = 0.09
+FROWARD_THRESHOLD = 0.1
 LEFT_THRESHOLD = 0
-RIGHT_THRESHOLD = 0.20
+RIGHT_THRESHOLD = 0.18
 
 # Video capture object
 cap = cv2.VideoCapture(0)
@@ -51,7 +51,7 @@ def get_direction():
         imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
         results = hands.process(imgRGB)
 
-        # print(results.multi_hand_landmarks)
+        #print(results.multi_hand_landmarks)
 
         # Check for multiple hands
         # Extracting each hand
