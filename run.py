@@ -3,6 +3,7 @@ import mediapipe as mp
 import serial
 import time
 
+# New
 # Create an arduino connection object 
 # 115200 Baud rate
 ard = serial.Serial("/dev/ttyACM0", 115200)
